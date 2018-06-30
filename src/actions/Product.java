@@ -1,7 +1,11 @@
+
+package actions;
+import dictonaries.Storilocations;
+
 public class Product {
     private String name;
     private double price;
-    private Storelocation storeloc;
+    private  Storelocation storeloc;
 
 
     public Storelocation getStoreloc() {

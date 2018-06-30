@@ -1,5 +1,9 @@
-import java.util.ArrayList;
+package dictonaries;
 
+import actions.User;
+
+import java.util.ArrayList;
+import actions.User;
 public class Users {
 
     public ArrayList<User> arrUsers = new ArrayList<>();
@@ -13,7 +17,7 @@ public class Users {
 
     public void printUsers() {
         for (User a : arrUsers) {
-            System.out.println("Пользователь: " + a.name + ". Возраст - " + a.age);
+            System.out.println("Пользователь: " + a.getName() + ". Возраст - " + a.getAge());
         }
     }
 

@@ -1,3 +1,5 @@
+package actions;
+
 public class Storelocation {
     private String name;
     private String address;

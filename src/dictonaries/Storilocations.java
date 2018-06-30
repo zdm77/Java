@@ -1,4 +1,7 @@
+package dictonaries;
+
 import java.util.ArrayList;
+import actions.Storelocation;
 
 public class Storilocations {
     ArrayList<Storelocation> storeloc = new ArrayList<>();
