@@ -2,6 +2,7 @@ import actions.Product;
 import dictonaries.Storilocations;
 import dictonaries.Users;
 
+
 public class Main {
     public static void main(String[] args){
 
@@ -11,7 +12,9 @@ public class Main {
 
       Product p1 = new Product("Товар 1", 25.05, st.getStoreloc(0));
       System.out.println(p1.getName()+"   " +p1.getStoreloc().getName());
-
+Dlg1 frame = new Dlg1();
+frame.txt1.setText("dsfsdfsdfdsf dsfdsfdsf");
+frame.setVisible(true);
     }
 
 }
